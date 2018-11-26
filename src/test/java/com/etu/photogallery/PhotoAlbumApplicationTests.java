@@ -1,4 +1,4 @@
-package com.etu.photoalbum;
+package com.etu.photogallery;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

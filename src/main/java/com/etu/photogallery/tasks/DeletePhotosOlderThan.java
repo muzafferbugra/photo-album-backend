@@ -13,8 +13,8 @@ public class DeletePhotosOlderThan {
 
 	private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 
-//	@Scheduled(fixedRate = 5000)
-//	public void fixedRateScheduledTaskMethod() {
-//		System.out.println("Fixed Rate Scheduled Task Worked! " + dateFormat.format(new Date()));
-//	}
+	@Scheduled(fixedRate = 5000)
+	public void fixedRateScheduledTaskMethod() {
+		System.out.println("Fixed Rate Scheduled Task Worked! " + dateFormat.format(new Date()));
+	}
 }
