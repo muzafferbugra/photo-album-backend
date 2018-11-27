@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="485fe646-0184-466c-af13-4b0d882905c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/etu/photogallery/controller/PhotoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/etu/photogallery/controller/PhotoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/etu/photogallery/repository/PhotoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/etu/photogallery/repository/PhotoRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/etu/photogallery/service/CloudinaryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/etu/photogallery/service/CloudinaryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/etu/photogallery/controller/PhotoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/etu/photogallery/controller/PhotoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/etu/photogallery/service/CloudinaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/etu/photogallery/service/CloudinaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/etu/photogallery/tasks/DeletePhotosOlderThan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/etu/photogallery/tasks/DeletePhotosOlderThan.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/etu/photogallery/tasks/DeletePhotosOlderThan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/etu/photogallery/tasks/DeletePhotosOlderThan.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -89,11 +88,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/etu/photogallery/service/CloudinaryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="72">
+              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,17 +103,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/etu/photogallery/tasks/DeletePhotosOlderThan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://edcbc92a-5f27-484d-8b28-4428a64c8c6e/database/photo-gallery/schema/public/table/albums">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/etu/photogallery/repository/PhotoRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,9 +153,10 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/etu/photogallery/PhotoAlbumApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/etu/photogallery/model/Settings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/etu/photogallery/tasks/DeletePhotosOlderThan.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/etu/photogallery/controller/PhotoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/etu/photogallery/tasks/DeletePhotosOlderThan.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/etu/photogallery/service/CloudinaryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/etu/photogallery/repository/PhotoRepository.java" />
       </list>
     </option>
   </component>
@@ -205,24 +211,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="photogallery" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="photo-album" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bil495ProjeBackend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="photogallery" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="photo-album" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bil495ProjeBackend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="photogallery" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,15 +221,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="photogallery" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="photo-album" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bil495ProjeBackend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="photogallery" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="photo-album" type="b2602c69:ProjectViewProjectNode" />
@@ -272,7 +251,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543341702054" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543342937831" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -310,12 +289,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543255808383</updated>
       <workItem from="1543255811892" duration="1727000" />
-      <workItem from="1543326006107" duration="12672000" />
+      <workItem from="1543326006107" duration="13992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14399000" />
+    <option name="totallyTimeSpent" value="15719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="27" width="1867" height="1053" extended-state="6" />
@@ -427,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/etu/photogallery/repository/PhotoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/etu/photogallery/controller/AlbumController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -455,20 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/etu/photogallery/tasks/DeletePhotosOlderThan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://edcbc92a-5f27-484d-8b28-4428a64c8c6e/database/photo-gallery/schema/public/table/photos">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://edcbc92a-5f27-484d-8b28-4428a64c8c6e/database/photo-gallery/schema/public/table/albums">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -483,10 +441,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://edcbc92a-5f27-484d-8b28-4428a64c8c6e/database/photo-gallery/schema/public/table/photos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/etu/photogallery/tasks/DeletePhotosOlderThan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/etu/photogallery/service/CloudinaryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="72">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/etu/photogallery/repository/PhotoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
