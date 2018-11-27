@@ -22,7 +22,7 @@ public class CloudinaryService {
         try {
             File uploadedFile = convertMultiPartToFile(file);
             Map uploadResult = cloudinaryConfig.uploader().upload(uploadedFile, Collections.emptyMap());
-            System.out.println(uploadResult.keySet() + ":" +uploadResult.values());
+            uploadedFile.delete();
             Map<String, String> map = new HashMap<>();
             map.put("url", uploadResult.get("url").toString());
             map.put("publicId", uploadResult.get("public_id").toString());
